@@ -194,7 +194,7 @@ body a:hover {
     width: 225px;
     height: 100%;
     margin: 0;
-    padding: 80px 0;
+    padding: 100px 0;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
@@ -367,7 +367,7 @@ h2.title:hover:after {
      object-fit: cover;
   border-radius: 3%;
   filter: grayscale(30%);
-  box-shadow: 6px 6px #888888;
+  box-shadow: 6px 6px #f66d52;
 }
 
 .gallery__img:hover {
@@ -605,10 +605,8 @@ h2.title:hover:after {
     margin: 30px auto 0;
     background: white;
     border-radius: 20px;
-    padding-bottom: 2em;
-    opacity: 75%;
   }
-  .form__form-inner {
+    .form__form-inner {
     border: 5px solid #F2F2F2;
     border-radius: 5%;
     padding: 45px;
@@ -686,7 +684,6 @@ h2.title:hover:after {
     margin: 25px auto 0;
     background: white;
     border-radius: 20px;
-    padding-bottom: 2em;
   }
   .form__form-inner {
     border: 5px solid #F2F2F2;
@@ -755,6 +752,7 @@ h2.title:hover:after {
 }
 .footer__info {
   align-items: center;
+  margin-left: 1%;
 }
 .footer__info-address span {
   font-weight: 900;
@@ -794,7 +792,7 @@ h2.title:hover:after {
     font-size: 21px;
   }
   .subscribe-form__button {
-    width: 180px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 910px) {
@@ -811,5 +809,8 @@ h2.title:hover:after {
   }
   .subscribe-form__button {
     width: 110px;
+  }
+  .footer__info-contacts {
+    max-width: 35%;
   }
 }

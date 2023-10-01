@@ -223,7 +223,7 @@ body {
     height: 100%;
   
     margin: 0;
-    padding: 80px 0;
+    padding: 100px 0;
     // list-style: none;
     background-color: #ECEFF1;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
@@ -536,7 +536,7 @@ h2.title:hover:after {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 4%;    
-  padding-bottom: 4%
+  padding-bottom: 4%;
 }
 
 .card {
@@ -851,10 +851,10 @@ h2.title:hover:after {
   &__info{
     @extend %flex-element-row;
     align-items: center;
-    
+    margin-left: 1%;
+
     &-address{
-      
-      span{
+        span{
         font-weight: 900;
       }
 
@@ -905,7 +905,7 @@ h2.title:hover:after {
   }
 
   .subscribe-form__button {
-    width: 180px; 
+    width: 100%; 
   }
 }
 
@@ -927,6 +927,9 @@ h2.title:hover:after {
 
   .subscribe-form__button {
     width: 110px; 
+  }
+  .footer__info-contacts{
+    max-width: 35%;
   }
 }
 
